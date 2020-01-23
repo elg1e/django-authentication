@@ -4,7 +4,7 @@
 
 {% block page_heading %}Home{% endblock %} 
 
-{% blockc ontent %}
+{% block content %}
 <form method="POST">
     {% csrf_token %} {{ login_form }}
     <button type="submit">Login</button>
